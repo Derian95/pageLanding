@@ -1,0 +1,17 @@
+.container{
+    margin: 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333740;
+    
+
+}
+.container section{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+    grid-template-rows: 400px ;
+}

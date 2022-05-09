@@ -1,0 +1,36 @@
+.container{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color:#5A6473 ;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+}
+.icons:hover{
+    cursor: pointer;
+}
+.number{
+    font-size: 3rem;
+}
+.email{
+    font-size: 1rem;
+}
+.server{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+@media(max-width:700px){
+    .container{
+        flex-direction: column;
+    }
+    .server{
+        width: 80%;
+    }
+
+}

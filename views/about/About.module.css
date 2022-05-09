@@ -1,0 +1,84 @@
+.container{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 200px;
+    color: white;
+
+}
+.text{
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+.header{
+    color: #5A6473;
+   
+}
+
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white ;
+    
+}
+.box1 section{
+    width: 50%;
+}
+.box2{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    background-image: url('../../assets/gym2.jpg');
+    background-size: cover;
+}
+.box3{
+    background-color: #333740;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box4{
+    background-color: #5A6473;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box5{
+    background-color: #F26E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box6{
+    background-color: #5A6473;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 800px) {
+    .container {
+      font-size: 8px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 70% 30%;
+      height: 100vh;
+    }
+    .text{
+        width: 90%;
+    }
+    .pd{
+        font-size: 14px;
+    }
+    .box1 section{
+        width: 80%;
+    }
+  }

@@ -1,0 +1,31 @@
+.container{
+    background-color: #333740;
+    color: white;
+    height: 100%;
+}
+.containerImg{
+    width: 100%;
+    height: 70%;
+    display: block;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.button{
+    font-size: 30px;
+    position: relative;
+    background-color: #F26E50;
+    bottom:50px;
+    width: 15%;
+    right: 20px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}

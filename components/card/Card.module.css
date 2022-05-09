@@ -1,0 +1,25 @@
+img{
+    width: 100%;
+}
+.container{
+    background-color: white;
+}
+.top{
+    margin: 0px 25px 0px 25px ;
+    text-align: center;
+}
+.bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+
+@media (max-width: 800px) {
+    .container {
+      font-size: 15px;
+      
+
+    }
+  }
+  
