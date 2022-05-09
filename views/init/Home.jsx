@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './Home.module.css'
 import Button from '../../components/Button'
+import img from '../../assets/gym.png'
+
 export default function Home() {
     return (
         <div className={styles.container} id="home">
@@ -15,7 +17,7 @@ export default function Home() {
 
             </div>
             <div className={styles.gymImg}>
-                <img src="../../assets/gym.png" alt="gym" />
+                <img src={img} alt="gym" />
             </div >
             <div className={styles.info}>
             <div className={styles.box2}>

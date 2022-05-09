@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
 import Nav from '../views/nav/Nav'
 import About from '../views/about/About'
