@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import styles from './Nav.module.css'
 import { Link } from 'react-scroll'
+import icono from '../../assets/ham.png'
 export default function Nav() {
   const [menu, setMenu] = useState(false);
   //console.log(menu)
@@ -23,7 +24,7 @@ console.log(`${styles.list + styles.active}`)
       </ul>
       <div className={styles.navIcon} onClick={handleClick}>
 
-        <img className="nav-icon"  src="../../assets/icons/ham.png" alt="ss" />
+        <img className="nav-icon"  src={icono} alt="ss" />
       </div>
 
 
